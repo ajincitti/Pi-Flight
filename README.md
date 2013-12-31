@@ -1,4 +1,10 @@
-Pi-Flight
-=========
+Drone-Flight
+============
+Required:
+npm install joystick
+npm install ar-drone
 
-Raspberry Pi controller for the AR drone 2.0 using a Xbox 360 Controller
+Xbox360 controller
+
+
+
