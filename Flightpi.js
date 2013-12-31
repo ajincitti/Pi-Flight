@@ -157,6 +157,7 @@ axisAction = function(event) {
             // BEGIN DANNY
             if (Math.abs(event.value) < g_deadZone.leftY) {
                 console.log ('leftY in deadzone');
+                drone.stop();
                 break;
             }
             // END DANNY
@@ -175,6 +176,7 @@ axisAction = function(event) {
             // BEGIN DANNY
             if (Math.abs(event.value) < g_deadZone.leftX) {
                 console.log ('leftX in deadzone');
+                drone.stop();
                 break;
             }
             // END DANNY
